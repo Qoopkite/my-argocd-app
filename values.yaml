@@ -1,10 +1,10 @@
-replicaCount: 2
+replicaCount: 1 
+
 image:
-  repository: nginx
-  tag: stable
-  pullPolicy: IfNotPresent
+  repository: qoopkite/django-app
+  tag: v1
 
 service:
-  type: ClusterIP
+  type: NodePort 
   port: 80
-
+  nodePort: 30080
