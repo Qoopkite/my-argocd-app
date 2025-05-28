@@ -1,4 +1,4 @@
 apiVersion: v2
-name: nginx-app
-description: A simple nginx app
+name: django-app 
+description: django실행 가능한 서버
 version: 0.1.0
